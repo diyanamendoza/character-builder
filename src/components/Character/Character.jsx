@@ -1,11 +1,8 @@
-import React from 'react';
+import React from 'react'
 
 export default function Character({ head, torso, feet }) {
   return (
-    <div
-      className="character"
-      style={{ display: 'flex', flexDirection: 'column', gap: 10 }}
-    >
+    <div className="character" style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
       <div
         className="head"
         style={{
@@ -37,5 +34,5 @@ export default function Character({ head, torso, feet }) {
         }}
       ></div>
     </div>
-  );
+  )
 }

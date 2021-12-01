@@ -1,5 +1,5 @@
-import React from 'react';
-import './Text.css';
+import React from 'react'
+import './Text.css'
 
 export default function Text({ text, setText, handleClick }) {
   return (
@@ -16,5 +16,5 @@ export default function Text({ text, setText, handleClick }) {
         Submit
       </button>
     </div>
-  );
+  )
 }

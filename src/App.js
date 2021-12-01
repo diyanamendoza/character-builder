@@ -1,23 +1,23 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import React from 'react';
-import './App.css';
-import { useState } from 'react';
-import Picker from './components/Picker/Picker.jsx';
-import Text from './components/Text/Text.jsx';
-import Character from './components/Character/Character.jsx';
-import SpeechBubble from './components/SpeechBubble/SpeechBubble.jsx';
+import React from 'react'
+import './App.css'
+import { useState } from 'react'
+import Picker from './components/Picker/Picker.jsx'
+import Text from './components/Text/Text.jsx'
+import Character from './components/Character/Character.jsx'
+import SpeechBubble from './components/SpeechBubble/SpeechBubble.jsx'
 
 function App() {
   //container component
-  const [head, setHead] = useState('deadpool');
-  const [torso, setTorso] = useState('deadpool');
-  const [feet, setFeet] = useState('deadpool');
-  const [text, setText] = useState('Change me');
-  const [mottos, setMottos] = useState([]);
+  const [head, setHead] = useState('deadpool')
+  const [torso, setTorso] = useState('deadpool')
+  const [feet, setFeet] = useState('deadpool')
+  const [text, setText] = useState('Change me')
+  const [mottos, setMottos] = useState([])
 
   const handleClick = () => {
-    setMottos((prevState) => [...prevState, text]);
-  };
+    setMottos((prevState) => [...prevState, text])
+  }
 
   return (
     <div className="App">
@@ -40,7 +40,7 @@ function App() {
         <SpeechBubble mottos={mottos} />
       </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
