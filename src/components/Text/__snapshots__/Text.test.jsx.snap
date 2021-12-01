@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render text input component 1`] = `
+<div>
+  <div
+    class="text"
+  >
+    <label>
+      Motto
+      <input
+        style="margin-left: 10px; width: 200px;"
+        value="tasty dumplings"
+      />
+    </label>
+    <button
+      type="button"
+    >
+      Submit
+    </button>
+  </div>
+</div>
+`;

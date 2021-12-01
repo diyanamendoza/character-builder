@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render picker component 1`] = `
+<div>
+  <div
+    class="picker"
+    style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 10px;"
+  >
+    <label>
+      Head
+      <select>
+        <option>
+          hulk
+        </option>
+        <option>
+          deadpool
+        </option>
+        <option>
+          spiderman
+        </option>
+        <option>
+          captainmarvel
+        </option>
+      </select>
+    </label>
+    <label>
+      Torso
+      <select>
+        <option>
+          hulk
+        </option>
+        <option>
+          deadpool
+        </option>
+        <option>
+          spiderman
+        </option>
+        <option>
+          captainmarvel
+        </option>
+      </select>
+    </label>
+    <label>
+      Feet
+      <select>
+        <option>
+          hulk
+        </option>
+        <option>
+          deadpool
+        </option>
+        <option>
+          spiderman
+        </option>
+        <option>
+          captainmarvel
+        </option>
+      </select>
+    </label>
+  </div>
+</div>
+`;

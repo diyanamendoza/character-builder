@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders app including header and main 1`] = `
+<div>
+  <div
+    class="App"
+  >
+    <header
+      class="App-header"
+    >
+      <h1>
+        CHARACTER BUILDER
+      </h1>
+      <div
+        class="picker"
+        style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 10px;"
+      >
+        <label>
+          Head
+          <select>
+            <option>
+              hulk
+            </option>
+            <option>
+              deadpool
+            </option>
+            <option>
+              spiderman
+            </option>
+            <option>
+              captainmarvel
+            </option>
+          </select>
+        </label>
+        <label>
+          Torso
+          <select>
+            <option>
+              hulk
+            </option>
+            <option>
+              deadpool
+            </option>
+            <option>
+              spiderman
+            </option>
+            <option>
+              captainmarvel
+            </option>
+          </select>
+        </label>
+        <label>
+          Feet
+          <select>
+            <option>
+              hulk
+            </option>
+            <option>
+              deadpool
+            </option>
+            <option>
+              spiderman
+            </option>
+            <option>
+              captainmarvel
+            </option>
+          </select>
+        </label>
+      </div>
+      <div
+        class="text"
+      >
+        <label>
+          Motto
+          <input
+            style="margin-left: 10px; width: 200px;"
+            value="Change me"
+          />
+        </label>
+        <button
+          type="button"
+        >
+          Submit
+        </button>
+      </div>
+    </header>
+    <main>
+      <div
+        class="character"
+        style="display: flex; flex-direction: column; gap: 10px;"
+      >
+        <div
+          class="head"
+          style="background-image: url(./deadpool-head.png); background-size: cover; height: 180px; width: 320px; background-repeat: no-repeat;"
+        />
+        <div
+          class="torso"
+          style="background-image: url(./deadpool-torso.png); background-size: cover; height: 280px; width: 320px; background-repeat: no-repeat;"
+        />
+        <div
+          class="feet"
+          style="background-image: url(./deadpool-feet.png); background-size: cover; height: 240px; width: 320px; background-repeat: no-repeat;"
+        />
+      </div>
+      <div
+        class="speechbubble"
+      />
+    </main>
+  </div>
+</div>
+`;
