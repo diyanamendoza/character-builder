@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,800&family=Oswald:wght@600&display=swap');
+
+.text {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+button {
+  border-style: none;
+  border-radius: 10px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: white;
+  color: black;
+}

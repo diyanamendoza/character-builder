@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render character component 1`] = `
+<div>
+  <div
+    class="character"
+    style="display: flex; flex-direction: column; gap: 10px;"
+  >
+    <div
+      class="head"
+      style="background-image: url(./deadpool-head.png); background-size: cover; height: 180px; width: 320px; background-repeat: no-repeat;"
+    />
+    <div
+      class="torso"
+      style="background-image: url(./deadpool-torso.png); background-size: cover; height: 280px; width: 320px; background-repeat: no-repeat;"
+    />
+    <div
+      class="feet"
+      style="background-image: url(./deadpool-feet.png); background-size: cover; height: 240px; width: 320px; background-repeat: no-repeat;"
+    />
+  </div>
+</div>
+`;

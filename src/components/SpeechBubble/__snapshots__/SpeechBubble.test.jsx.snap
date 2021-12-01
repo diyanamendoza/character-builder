@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render speech bubble component 1`] = `
+<div>
+  <div
+    class="speechbubble"
+  >
+    <h3
+      style="background-image: url(./speechbubble.png); background-repeat: no-repeat; width: 200px; height: 125px; color: black; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; overflow-wrap: anywhere; padding-left: 80px; padding-right: 70px;"
+    >
+      hi
+    </h3>
+    <h3
+      style="background-image: url(./speechbubble.png); background-repeat: no-repeat; width: 200px; height: 125px; color: black; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; overflow-wrap: anywhere; padding-left: 80px; padding-right: 70px;"
+    >
+      get outta here
+    </h3>
+  </div>
+</div>
+`;
